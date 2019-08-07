@@ -22,7 +22,7 @@ contract Visit {
         members.push(msg.sender);
         Member memory m;
         m.count = 1;
-        member_map[msg.sender]=m;
+        member_map[msg.sender] = m;
         }
     }
 }
